@@ -1,0 +1,33 @@
+{
+  "name": "tribute",
+  "version": "1.0.0",
+  "description": "Tribute for Prince",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+     "scss": "node-sass -o css/ css/",
+     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LisaCee/tribute.git"
+  },
+  "keywords": [
+    "tribute",
+    "freecodecamp",
+    "music"
+  ],
+  "author": "Lisa Cee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LisaCee/tribute/issues"
+  },
+  "homepage": "https://github.com/LisaCee/tribute#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "onchange": "^3.2.1",
+    "parallelshell": "^3.0.1"
+  }
+}

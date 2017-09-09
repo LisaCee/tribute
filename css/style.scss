@@ -1,0 +1,42 @@
+$purple: #57366F;
+
+@media (min-width: 768px){
+
+}
+h1, h2 {
+	text-align: center;
+	color: white;
+	padding-top: 25px;
+}
+
+h1 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 5em;
+	padding-bottom: 25px;
+}
+
+h2 {
+	font-size: 2em;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body {
+	background: $purple;
+}
+
+#info {
+	padding: 50px;
+}
+
+img {
+	margin: 0 auto;
+}
+
+p {
+	text-align: justify;
+	color: white;
+}
+
+
+
+
