@@ -1,17 +1,33 @@
 $purple: #57366F;
 
 @media (min-width: 768px){
-
+	h1 {
+		font-size: 5em;
+		padding-top: 25px;
+	}
+	h2 {
+		font-size: 1em;
+	}
+	#info {
+		padding: 50px;
+	}
 }
+
+@media (max-width: 990px){
+	img {
+		padding-bottom: 50px;
+	}
+}
+
 h1, h2 {
 	text-align: center;
 	color: white;
-	padding-top: 25px;
+
 }
 
 h1 {
 	font-family: 'Kaushan Script', cursive;
-	font-size: 5em;
+	font-size: 3em;
 	padding-bottom: 25px;
 }
 
@@ -24,18 +40,17 @@ body {
 	background: $purple;
 }
 
-#info {
-	padding: 50px;
-}
 
 img {
 	margin: 0 auto;
+	padding-top: 25px;
 }
 
 p {
 	text-align: justify;
 	color: white;
 }
+
 
 
 
