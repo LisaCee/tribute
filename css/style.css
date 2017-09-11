@@ -1,15 +1,22 @@
-@media (min-width: 768px) {
-  h1 {
-    font-size: 5em;
-    padding-top: 25px; }
-  h2 {
-    font-size: 1em; }
-  #info {
-    padding: 50px; } }
+body {
+  background: #57366F; }
 
-@media (max-width: 990px) {
-  img {
-    padding-bottom: 50px; } }
+.navbar-light .navbar-toggler {
+  border: none; 
+}
+
+.fa-bars {
+  color: white;
+  font-weight: lighter;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: white !important ;
+}
+
+a.nav-link{
+  font-family: 'Open Sans Condensed', sans-serif;
+} 
 
 h1, h2 {
   text-align: center;
@@ -22,10 +29,7 @@ h1 {
 
 h2 {
   font-size: 2em;
-  font-family: 'Open Sans Condensed', sans-serif; }
-
-body {
-  background: #57366F; }
+  font-family: 'Open Sans Condensed', sans-serif; }  
 
 img {
   margin: 0 auto;
@@ -34,3 +38,81 @@ img {
 p {
   text-align: justify;
   color: white; }
+
+p img {
+  padding: 0px;
+}  
+
+#more h2{
+  margin-top: 35px;
+}
+
+#more p {
+  text-align: center;
+}
+
+#more img {
+  margin-top: -25px;
+  display: block;
+}
+
+.fa-stack {
+  text-align: center;
+  display: block;
+  position: static;
+}
+
+.fa-stack-1x {
+  color: #57366F;
+  text-align:center;
+}
+
+.fa-stack-1x:hover {
+  color: #9F9F9F;
+}
+
+.fa-stack-2x {
+  color: white;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p.text-center{
+  font-family: 'Kaushan Script', cursive;
+}
+
+.footer {
+  background: #9F9F9F;
+}
+
+.footer p {
+  color: #57366F;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.footer a {
+  color: #57366F;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  h1 {
+  font-size: 5em;
+  padding-top: 25px; }
+  h2 {
+  font-size: 2em; }
+  #info {
+  padding: 50px; } }
+
+@media (max-width: 990px) {
+  img {
+    padding-bottom: 50px; } 
+}
+
+

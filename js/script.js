@@ -8,4 +8,9 @@ $(document).ready(function(){
   fade: true,
   cssEase: 'linear'
 	});
+
+	$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+	});
+
 });
